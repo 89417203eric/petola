@@ -9,8 +9,8 @@ from linebot.exceptions import InvalidSignatureError
 from linebot.models import MessageEvent, TextMessage, PostbackEvent, TextSendMessage,TemplateSendMessage, ConfirmTemplate, MessageTemplateAction, ButtonsTemplate,PostbackTemplateAction, URITemplateAction, CarouselTemplate, CarouselColumn,ImageCarouselTemplate, ImageCarouselColumn, ImageSendMessage
 from urllib.parse import parse_qsl
 
-line_bot_api = LineBotApi('M24y5Vx0Ap7aeq3CvVGP1ohz3fTHhxukW/vWfHnOSP/uMKCyPWvGq4rtW6ssc3rucm0q9KRj8cGE6aNQEuwfW3Flvs+kcqfFLOMTRKkBqI06NijotHFOaUWquJlUrhv6ueIh2iyj5LXS8iXbXOmPqQdB04t89/1O/w1cDnyilFU=')
-handler = WebhookHandler('9e4a17fea6b57afc8ece3621d19ce432')
+line_bot_api = LineBotApi('Mj+vgxtF5BOPJLNBarkJbvnoI3KmVmrMoAX9+SPWvxfm11ifxCbfk94xAIPOwVLLpeTW1tI9mByOa+isfpfrkfXn/P1bud8wFu7n6P7k4jnp7RJrdGiRCxAWNB8qj05vpx2gjuBIVgOJz6eEnzu3kQdB04t89/1O/w1cDnyilFU=')
+handler = WebhookHandler('3bc11ec5112fbb96b841770d22429a92')
 
 app = Flask(__name__)
 
